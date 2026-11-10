@@ -34,8 +34,8 @@ For ease of reference, my previous reports include:
 
 I have organised all **73 numbered exhibits ([`Exhibit 01`](https://github.com/joosthebly50/jed-boards-evidence-dossier/blob/main/SCREENSHOTS/Exhibit_01_2018-05_to_2019-07_Joost_Hebly_Order_Confirmations_and_Email_Overview.docx) to [`Exhibit 73`](https://github.com/joosthebly50/jed-boards-evidence-dossier/blob/main/SCREENSHOTS/Exhibit_73_2026-11-09_ACRA_Business_Profile_OPUSFAB_PTE_LTD_UEN_202617056M_Jeremy_Bogan_Director_Randwick_NSW.pdf))** collected over the years into a dedicated public evidence repository and interactive dossier:
 
-- **Evidence Repository (GitHub):** https://github.com/joosthebly50/jed-boards-evidence-dossier
 - **Interactive Evidence Dossier (Canvas View):** https://joosthebly50.github.io/jed-boards-evidence-dossier/
+- **Evidence Repository (GitHub):** https://github.com/joosthebly50/jed-boards-evidence-dossier
 
 I am also providing selected important documents directly as attachments, accompanied by a chronological **Evidence Index (`EVIDENCE_INDEX.md`)**. Original records and confidential material can be submitted securely upon request.
 
@@ -916,8 +916,8 @@ I have collected, deduplicated and chronologically indexed **73 exhibits (`Exhib
 
 
 **Online Evidence Repository & Interactive Dossier:**
-- **GitHub Repository:** https://github.com/joosthebly50/jed-boards-evidence-dossier
 - **Interactive Evidence Dossier (Canvas View):** https://joosthebly50.github.io/jed-boards-evidence-dossier/
+- **Evidence Repository (GitHub):** https://github.com/joosthebly50/jed-boards-evidence-dossier
 
 For privacy and evidentiary reasons, any additional unredacted payment records, personal identification documents, or witness contact details can be provided directly to police through a secure submission method. I respectfully ask investigators to advise how original evidence should be submitted and whether a formal witness statement is required.
 
@@ -986,7 +986,7 @@ To assist the receiving officer, I have summarised my principal requests below.
 
 ### G. Evidence submission and further contact
 
-40. Review the attached material, the chronological Evidence Index (`EVIDENCE_INDEX.md`), and the online Evidence Repository (`https://github.com/joosthebly50/jed-boards-evidence-dossier` and `https://joosthebly50.github.io/jed-boards-evidence-dossier/`).
+40. Review the attached material, the chronological Evidence Index (`EVIDENCE_INDEX.md`), and the online Evidence Repository (`https://joosthebly50.github.io/jed-boards-evidence-dossier/` and `https://github.com/joosthebly50/jed-boards-evidence-dossier`).
 41. Advise how confidential and original evidence should be submitted securely.
 42. Advise whether a formal witness statement is required from me or from other affected customers (such as Australian resident James Rose).
 43. Confirm receipt of this complaint and provide information about the next appropriate procedural steps.
@@ -1065,6 +1065,6 @@ Email: joosthebly50@gmail.com
 **Australian Scamwatch:** 947671  
 **Australian ReportCyber:** CIRS-20261110-12
 
-**Evidence Repository (GitHub):** https://github.com/joosthebly50/jed-boards-evidence-dossier  
 **Interactive Evidence Dossier (Canvas View):** https://joosthebly50.github.io/jed-boards-evidence-dossier/  
+**Evidence Repository (GitHub):** https://github.com/joosthebly50/jed-boards-evidence-dossier  
 **Attachments:** `EVIDENCE_INDEX.md` and [`Exhibits 01–73`](https://github.com/joosthebly50/jed-boards-evidence-dossier/blob/main/SCREENSHOTS/Exhibit_01_2018-05_to_2019-07_Joost_Hebly_Order_Confirmations_and_Email_Overview.docx).
