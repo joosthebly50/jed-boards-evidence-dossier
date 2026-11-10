@@ -1,0 +1,175 @@
+Delivered-To: joosthebly50@gmail.com
+Received: by 2002:ac4:9094:0:b0:7ea:2323:b3fb with SMTP id k20csp4041235pic;
+        Sat, 31 Oct 2026 22:17:19 -0700 (PDT)
+X-Received: by 2002:aa7:c24c:0:b0:6b4:5a0c:a7fc with SMTP id 4fb4d7f45d1cf-6b4d4d738ffmr3326787a12.26.1793510239613;
+        Sat, 31 Oct 2026 22:17:19 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1793510239; cv=pass;
+        d=google.com; s=arc-20260327;
+        b=JFm1Q0/KSDfBOzYHiTrL5iJ72CNVFMYHaL2BQdK2tuLdm02y8TLv3+KsO76mXkl/sa
+         120e+ZC+EpDSL26njhlmzcBXnjgSKovnatmX/As8PdNn4qob94/r1AJ+tO06NL9xuKrh
+         G3XtTBVaGm30EaJbf8jHhTdS3qq8xDGLRybrzGJVvcz3cNN34jMhjC9dllzcmRAK6k0M
+         wgP7mg+oJAqaddh512LpebKmhzhHk0aIU7vOyWjKyqu+sbmhdTsSwcbijpAmFHhjOkwk
+         llh+W/pJejLa9Cg7VyjCzpNvi+EGyBtBBs23HQH3xFHXGeLmbUn6xqQXpcuAlDxWdmq+
+         0oRA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=vfOAdl2jjlhEPEiZOmgEYPjKQ5BPAmWcK4g+rPfOwxA=;
+        fh=M1UM41DKUwxk2OBw8H3sHX7Ak3u1sK0RMCFN8BQUmtg=;
+        b=SU2UjLLXLWh4/MYasV1GWmGITJYchkfltRTJQ1c4W7+HwHk0knHbgIU9lbXg9bqDCl
+         y2rrqNm6LBiBR6P9MmQCB4OiBfPaxBHPYMHQYtRDvYaipEphlmvt9sCj9e68phCTfn97
+         fILM/tueq+6ZCH35sNSSqiX6POb8uE+V/dXZo+PX0T3zcqC1LH7Tq7eQhBfGfJafv+iM
+         tmoo3Dg8ETGtC8GUo7O7ZVaWI1J2W/kJ8oB5j+2pyWTOHoyLeQtOoQoISMexZBJGMnpG
+         EAc/7W3EDluKzyXbey5AK4v98ASrmYxK+k1kRLUVEhyPKN+EVK/WHoH8faN8Mvr5dL21
+         5dvw==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@opusfab.com header.s=google header.b=r06+skym;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of jb@opusfab.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=jb@opusfab.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=opusfab.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <jb@opusfab.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 4fb4d7f45d1cf-6b4dc5ca86esor1341929a12.13.2026.10.31.22.17.19
+        for <joosthebly50@gmail.com>
+        (Google Transport Security);
+        Sat, 31 Oct 2026 22:17:19 -0700 (PDT)
+Received-SPF: pass (google.com: domain of jb@opusfab.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@opusfab.com header.s=google header.b=r06+skym;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of jb@opusfab.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=jb@opusfab.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=opusfab.com;
+       dara=pass header.i=@gmail.com
+ARC-Seal: i=1; a=rsa-sha256; t=1793510239; cv=none;
+        d=google.com; s=arc-20260327;
+        b=ScaYhqoJV5U3f+oHrA5hdKZqIrj5h9sG5mV0gNGQFFeFPK6W+jm8IsbEpkMcwfMQDe
+         8duL1w6Hm6ZZj3aPgeSEscYFipUiuNNdkphk3LwaxeUSnfvmoN3IzhnIo2ou+ab0Kz6o
+         y9JxWt5FgQNBDMiIGMS7d8QDwaIdUJneFecnfFV++/LnathNALKfDUhd/mfVLRU/XzpZ
+         RxMRGT/3pgb+ORGauEIdf5tV+f8l3a1pHar/1I4MHvjnKhdNovTEE9gyfKZtif/BUBG/
+         zcUVYkV4MGnkap2C1QpyumiaQD6aCcfcwQFxgy+dyPlx7mR1+M8Dex0GMstuZhbs0+Ze
+         J2dQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=vfOAdl2jjlhEPEiZOmgEYPjKQ5BPAmWcK4g+rPfOwxA=;
+        fh=M1UM41DKUwxk2OBw8H3sHX7Ak3u1sK0RMCFN8BQUmtg=;
+        b=qr3yizCpuEkI/pxON5Y3yrZ+PwOd5JHMVCHCCsP8650Ioxai9KEaA7Spk7j2gA+bVx
+         vross7t33XSPLwKbtAfAh7O+O1JKM7vpAfDfVPR8izpaXM41JnPnR6fGLcL9OL7EfYSO
+         bTohh0B6AIXlbj/PP5uoq/1aDnT0us7HDYqJ4ZRu4dLpA90v60v0uRMg3hIg4RB4GgIW
+         6nEvQXBjRiW5gLxTvI2s1UGXFjaK4Pgzg2nF+43PdkoBM0bG3p+HiG3ySGXd0xusnVJo
+         f6oSlRGTIf2uyrfxCrkkiHxxdmHO5iEE2FG8MAS1EnuBu/g9NFWDlRN/hinhL8d71vb7
+         dbMA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=opusfab.com; s=google; t=1793510239; x=1794115039; dara=google.com;
+        h=content-type:to:subject:message-id:date:from:mime-version:from:to
+         :cc:subject:date:message-id:reply-to:content-type;
+        bh=vfOAdl2jjlhEPEiZOmgEYPjKQ5BPAmWcK4g+rPfOwxA=;
+        b=r06+skymOmHBE5hzaCh2ydPSVflcBmfGj8pmxzM2/wK+Hcg04ya5X3dDpGLArHudcf
+         4kuNrxoFlLxaO6zwMzUYqA4KNkyG4wsW7IssxpzBFDqcbO54du13KXTjP3rxtbjuGCY5
+         cg8V7e1FBr8PUvZYceBRYKtYVNudwsabw71/t5zSUNA5GmNIlbrXHJeR+t5AydjvG+kn
+         bOxkClcbRmqeNaSVwtuF+My4G4nPnDvcKU9w2LI0rI5LmmsysYKepH+tcBmS+jGEAHTI
+         5Pt9t9Dv9J5EM3OJ+Cul8iRBTCs6HHVz5ASkJtJIDXdhdui3FFrR2F1zuyKy4EgyLOGs
+         NmFQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20260707; t=1793510239; x=1794115039;
+        h=content-type:to:subject:message-id:date:from:mime-version:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=vfOAdl2jjlhEPEiZOmgEYPjKQ5BPAmWcK4g+rPfOwxA=;
+        b=YQgl3zeXVVbyBIvKka3AfCrOJnJ41VE6MRMKJpOrb6fX2vaJ6JVLKXPtCJUL552qwU
+         XWTBLJUvGkdt/mxes2Qeew+rmGwtJ5lscJTFtnaMTH+abygHnDl+jjVzXfLI9QwioYy/
+         EZ2WrO/1tYbZrfc7ztQpVhpusd3rMRXwo62dR7Esn0VItVzdRWFU4aNRxsDul9Sdki1L
+         dWtUFWxfH93e1nD6zDtnJWduPT2t9ZpGj7NbNUhuya3byHdA3VXlzFYmCH0YwHvagJVO
+         ygtEVkI32xQwqj7olmNbR73tmdKSBEpuxAe9R4G1pNfxJUa3e+bs0P7RBh8zCnvB+wD8
+         PfcA==
+X-Gm-Message-State: AFq9FYJ7i9pxUissCNwxmsxNIrUKziwk15c6DjkNEG/FoZ62iCGEOhKA
+	kLQSfcCdjo1iOZiAPexdAg4C9inEnUqpA01gnfuh2IVH9Bg9nXu3/xjAhOkIxldj1E23m9cJEOj
+	xyOWJkNgPP0vQset/wSPIFGIdNWx305cppunO1172UXvAydaVZ2qbiNUyFDaZVA==
+X-Gm-Gg: AYBFou3oIWIBPNz5FN2wAb33QBuwvNZ8yQwsMqmpQlYBUnQNURjWQL24f2M7RlzR6M5
+	us/FRoACFCYd3Xm8nDLgGncC6btDeBYXmpE+haaplU0ZwcTXtb9OBx0JMg5twmchwQkbPvSWw0E
+	i0CucQwBRvC0wDgQZrj0gJgGPeA/JjIH9lGS8x9hYBIA/mZhU15qCfhwiIxoM6o+HkuqHo+kyQw
+	IqKcKjSy/6Q1Dhc9eFgJ9/XwzfzhjWnXRxz5DIyHd/Egf+xd6sv+giNJDk6YGI9RUjadv5fM4Uu
+	psEPgPIrX4RXqJbA0ttJlC/IK/TKVvYQQnX0TjfO1GuR7c/NwC6RfT+QbrvVRnuze5tWrrd/cyt
+	1AqHdtwIlW/ex5YrgTkLlN83QdajwJiyfO/pghDoTiUS05SroVl/EDmBMy4dy6YZET4+sHg==
+X-Received: by 2002:a05:6402:5007:b0:6b4:9919:b54 with SMTP id
+ 4fb4d7f45d1cf-6b4d5ce4182mr4908700a12.42.1793510238844; Sat, 31 Oct 2026
+ 22:17:18 -0700 (PDT)
+MIME-Version: 1.0
+From: Jeremy Bogan <jb@opusfab.com>
+Date: Sun, 1 Nov 2026 13:17:07 +0800
+X-Gm-Features: AclHuK9XpVp3nh8psmw_BmQnbPP7rgoCLjadgw2Od9PAWs1QnbyvgTtk1iwr1pA
+Message-ID: <CALN7GeLKYPmLv7S0nStv-f3ZDvuaH3PFB81W2Qk7gPeHREioig@mail.gmail.com>
+Subject: Subject: Jed Boards. Final response and request to cease contact
+To: joosthebly50@gmail.com
+Content-Type: multipart/alternative; boundary="000000000000b00788065f3024a6"
+
+--000000000000b00788065f3024a6
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Joost,
+
+I am responding once, and finally, to your messages regarding Jed Boards.
+
+Jed Boards ceased operations years ago after the company became insolvent.
+It was a genuine business failure. We delivered product to some customers,
+but ultimately we ran out of money, and those we could not refund were left
+without recourse when the company was wound down. I personally lost in
+excess of one million US dollars in that business. The company no longer
+exists, holds no assets, and no refund is possible. This is not going to
+change, regardless of how many times or through how many channels the
+question is asked.
+
+Your purchase was with Jed Boards as a company. That company failed, and I
+regret that you were among those who could not be made whole. But I will
+not be paying you US$2,424 personally, now or in the future.
+
+I must now address your conduct. You have contacted my employer about a
+private matter that has nothing to do with them, and you have previously
+published my home address online. Both are unacceptable. OpusFab is a
+separate company with no connection to Jed Boards, and I am asking you
+formally to stop contacting my employer, my colleagues, or any organisation
+I am associated with, and to stop publishing my personal information. I am
+keeping records of all such contact, including this correspondence.
+
+You are entitled to pursue your complaint through the authorities, and they
+have had your reports since 2021. That is where this matter belongs. It
+does not belong at my workplace or on the internet alongside my home
+address.
+
+Please consider this my final response. I will not be engaging further on
+this matter.
+
+Jeremy
+
+--000000000000b00788065f3024a6
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear Joost,<div><br>I am responding once, and finally, to =
+your messages regarding Jed Boards.<br><br></div><div>Jed Boards ceased ope=
+rations years ago after the company became insolvent. It was a genuine busi=
+ness failure. We delivered product to some customers, but ultimately we ran=
+ out of money, and those we could not refund were left without recourse whe=
+n the company was wound down. I personally lost in excess of one million US=
+ dollars in that business. The company no longer exists, holds no assets, a=
+nd no refund is possible. This is not going to change, regardless of how ma=
+ny times or through how many channels the question is asked.<br><br></div><=
+div>Your purchase was with Jed Boards as a company. That company failed, an=
+d I regret that you were among those who could not be made whole. But I wil=
+l not be paying you US$2,424 personally, now or in the future.<br><br></div=
+><div>I must now address your conduct. You have contacted my employer about=
+ a private matter that has nothing to do with them, and you have previously=
+ published my home address online. Both are unacceptable. OpusFab is a sepa=
+rate company with no connection to Jed Boards, and I am asking you formally=
+ to stop contacting my employer, my colleagues, or any organisation I am as=
+sociated with, and to stop publishing my personal information. I am keeping=
+ records of all such contact, including this correspondence.<br><br></div><=
+div>You are entitled to pursue your complaint through the authorities, and =
+they have had your reports since 2021. That is where this matter belongs. I=
+t does not belong at my workplace or on the internet alongside my home addr=
+ess.<br><br></div><div>Please consider this my final response. I will not b=
+e engaging further on this matter.<br><br>Jeremy<br></div></div>
+
+--000000000000b00788065f3024a6--
