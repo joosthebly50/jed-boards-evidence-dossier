@@ -607,9 +607,9 @@ I recognise that this may be a historical, family or registration address and no
 
 The official ACRA records indicate:
 - **Jeremy Scott Bogan:** `250,000` ordinary shares
-- **Total issued ordinary shares:** `850,000` (with co-directors/shareholders `JARED HAW` holding `550,000` shares and ` YUAN XIAOHUI` holding `50,000` shares)
-- **Approximate ownership interest of Jeremy Scott Bogan:** `29.41%`
-- **Total company paid-up share capital:** `SGD 850.00`
+- **Total issued ordinary shares:** `850,000` Ordinary Shares (`250,000` held by `BOGAN JEREMY SCOTT` [29.41%] and `600,000` held by co-director `HAW JARED ADAM`, `4571 Emprise Way, Land O Lakes, FL 34638, USA`, ID `561865673` [70.59%]; with Singapore nominee director `WENDY SIM LI PING / WENDY SHEN LIPING`, ID `S7344943Z`)
+- **Approximate ownership interest of Jeremy Scott Bogan:** `29.41%` (`250,000` of `850,000` Ordinary Shares, denominated in `SINGAPORE DOLLAR` — equivalent to `SGD 250,000` / approx. `USD 186,500` at `SGD 1.00` per share, or `SGD 250.00` / approx. `USD 186.50` of the `SGD 850.00` / approx. `USD 634.00` nominal paid-up share capital recorded on Page 2 of `Exhibit 73`)
+- **Total company paid-up share capital recorded:** `SGD 850.00` (approx. `USD 634.00`), compared with `JED BOARDS PTE. LTD.` (`Exhibit 72`), which recorded **`SGD 400,000.00` (approx. `USD 298,400.00`) in paid-up capital** and **`SGD 2,000,000.00` (approx. `USD 1,492,000.00`) in issued share capital** (`300,000` Ordinary Shares + `1,700,000` Preference Shares)
 - **Official ACRA Verification Link:** https://www.acratrustbar.gov.sg/verify/6p66xHaWQd
 
 I consider this documentation important because it establishes Jeremy's documented business role in 2026. However, I understand that share ownership does not necessarily mean he personally invested substantial funds or currently has access to significant liquid assets. The small amount of paid-up share capital (`SGD 850`) recorded in the document does not demonstrate a substantial personal investment, and I do not claim that this information alone proves he has the money to refund former Jed Boards customers.
