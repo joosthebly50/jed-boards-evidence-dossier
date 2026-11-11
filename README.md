@@ -1,9 +1,11 @@
 # Jed Boards / Jeremy Scott Bogan — International Fraud & Commercial Misconduct Evidence Dossier
 
 - **Interactive Evidence Canvas (GitHub Pages):** [https://joosthebly50.github.io/jed-boards-evidence-dossier/](https://joosthebly50.github.io/jed-boards-evidence-dossier/)
-- **Formal Complaint to Australian Police:** [`FORMAL_COMPLAINT_AUSTRALIAN_POLICE.md`](FORMAL_COMPLAINT_AUSTRALIAN_POLICE.md)
-- **Chronological Evidence Index (`Exhibits 01–73`):** [`EVIDENCE_INDEX.md`](EVIDENCE_INDEX.md)
-- **Evidence Files Directory (`73 Exhibits`):** [`SCREENSHOTS/`](SCREENSHOTS/)
+- **1. Formal Complaint to Australian Police (Randwick / NSW Police / ReportCyber):** [`FORMAL_COMPLAINT_AUSTRALIAN_POLICE.md`](FORMAL_COMPLAINT_AUSTRALIAN_POLICE.md)
+- **2. Formal Follow-Up & Escalation to Singapore Police Force (`A/20210414/0016`):** [`FORMAL_FOLLOWUP_SINGAPORE_POLICE.md`](FORMAL_FOLLOWUP_SINGAPORE_POLICE.md)
+- **3. Formal Regulatory Complaint to Singapore ACRA (`s 344 / s 401(2) Companies Act`):** [`FORMAL_COMPLAINT_ACRA_SINGAPORE.md`](FORMAL_COMPLAINT_ACRA_SINGAPORE.md)
+- **Chronological Evidence Index (`Exhibits 01–75`):** [`EVIDENCE_INDEX.md`](EVIDENCE_INDEX.md)
+- **Evidence Files Directory (`75 Exhibits`):** [`SCREENSHOTS/`](SCREENSHOTS/)
 
 ---
 
