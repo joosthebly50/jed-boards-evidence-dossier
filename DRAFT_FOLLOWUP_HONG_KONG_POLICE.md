@@ -24,9 +24,11 @@ I understand from the earlier correspondence that officers made enquiries concer
 
 Could you please confirm whether this supplementary information can be associated with the existing references, advise whether the case remains closed or can be reviewed, and let me know whether you need particular documents submitted separately? If the matter is outside Hong Kong jurisdiction, I would appreciate guidance on the appropriate authority or channel for the information.
 
+I would also be grateful for guidance on whether the Hong Kong Police Force, or another appropriate authority, can lawfully establish whether Jeremy Bogan is currently active in Hong Kong or mainland China. I am considering civil proceedings, but my attempts to contact him have been blocked. He has told me to pursue the matter through legal action, but I do not have an address for service. I understand that locating someone or disclosing location information may be outside your remit; if so, please advise me of the appropriate lawful process or authority for service.
+
 I understand that the allegations require independent assessment. I am not asking the Hong Kong Police to assume that any person or company is guilty. I am asking that the documents and the new lead be considered and that I be advised of the appropriate next step.
 
-Thank you for your time.
+Thank you for your time and guidance.
 
 Yours faithfully,
 
