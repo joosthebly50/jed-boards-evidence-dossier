@@ -4,6 +4,7 @@
 - **1. Formal Complaint to Australian Police (Randwick / NSW Police / ReportCyber):** [`FORMAL_COMPLAINT_AUSTRALIAN_POLICE.md`](FORMAL_COMPLAINT_AUSTRALIAN_POLICE.md)
 - **2. Formal Follow-Up & Escalation to Singapore Police Force (`A/20210414/0016`):** [`FORMAL_FOLLOWUP_SINGAPORE_POLICE.md`](FORMAL_FOLLOWUP_SINGAPORE_POLICE.md)
 - **3. Formal Regulatory Complaint to Singapore ACRA (`s 344 / s 401(2) Companies Act`):** [`FORMAL_COMPLAINT_ACRA_SINGAPORE.md`](FORMAL_COMPLAINT_ACRA_SINGAPORE.md)
+- **4. Draft Supplementary Email to Hong Kong Police (`LM 311/21` / `WCH 73/12`):** [`DRAFT_FOLLOWUP_HONG_KONG_POLICE.md`](DRAFT_FOLLOWUP_HONG_KONG_POLICE.md) — prepared, not sent
 - **Chronological Evidence Index (`Exhibits 01–75`):** [`EVIDENCE_INDEX.md`](EVIDENCE_INDEX.md)
 - **Evidence Files Directory (`75 Exhibits`):** [`SCREENSHOTS/`](SCREENSHOTS/)
 
