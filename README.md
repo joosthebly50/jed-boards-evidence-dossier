@@ -5,6 +5,8 @@
 - **2. Formal Follow-Up & Escalation to Singapore Police Force (`A/20210414/0016`):** [`FORMAL_FOLLOWUP_SINGAPORE_POLICE.md`](FORMAL_FOLLOWUP_SINGAPORE_POLICE.md)
 - **3. Formal Regulatory Complaint to Singapore ACRA (`s 344 / s 401(2) Companies Act`):** [`FORMAL_COMPLAINT_ACRA_SINGAPORE.md`](FORMAL_COMPLAINT_ACRA_SINGAPORE.md)
 - **4. Draft Supplementary Email to Hong Kong Police (`LM 311/21` / `WCH 73/12`):** [`DRAFT_FOLLOWUP_HONG_KONG_POLICE.md`](DRAFT_FOLLOWUP_HONG_KONG_POLICE.md) — prepared, not sent
+- **ACRA correspondence (12–16 November 2026):** [`ACRA request and Joost Hebly’s five-part email response`](DOCUMENTS_AND_PDFS/ACRA_CORRESPONDENCE_2026-11-12_to_2026-11-16.pdf) — correspondence text and narrative-only public copy; Joost reports sending five separate emails with the evidence volumes and awaiting confirmation of receipt.
+- **ACRA narrative submission (public copy):** [`ACRA_Story_Submission_Public_Copy_2026-11-16.pdf`](DOCUMENTS_AND_PDFS/ACRA_Story_Submission_Public_Copy_2026-11-16.pdf)
 - **Chronological Evidence Index (`Exhibits 01–75`):** [`EVIDENCE_INDEX.md`](EVIDENCE_INDEX.md)
 - **Evidence Files Directory (`75 Exhibits`):** [`SCREENSHOTS/`](SCREENSHOTS/)
 
