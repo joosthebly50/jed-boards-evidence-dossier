@@ -2,7 +2,7 @@
 
 ## Record note
 
-This is a public transcription of the correspondence text supplied by Joost Hebly in this project. The original received email headers and the original sent-message headers were not available in the project files when this record was prepared. Joost reports that he sent the five-part response by email. The five evidence PDF parts are not duplicated here; this packet preserves the correspondence text and links to the narrative-only submission copy.
+This is a public transcription of the correspondence text supplied by Joost Hebly in this project. The original received email headers and the original sent-message headers were not available in the project files when this record was prepared. Joost reports that he sent the five-part response by email. The five corresponding PDF parts are also linked under their respective email texts in the ACRA section of the interactive dossier.
 
 ## ACRA request
 
