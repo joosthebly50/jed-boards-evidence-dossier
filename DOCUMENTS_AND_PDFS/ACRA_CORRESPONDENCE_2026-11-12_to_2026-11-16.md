@@ -1,4 +1,4 @@
-# ACRA Correspondence — 12–16 November 2026
+# ACRA Correspondence — 12–19 November 2026
 
 ## Record note
 
@@ -7,7 +7,7 @@ This is a public transcription of the correspondence text supplied by Joost Hebl
 ## ACRA request
 
 **Date:** 12 November 2026  
-**From:** Sheryl Heng, Investigation Department, Accounting and Corporate Regulatory Authority  
+**From:** Sheryl Heng, Investigation Department, Accounting and Corporate Regulatory Authority
 **Subject:** Request for supporting documents
 
 > Dear Sir/Madam,
@@ -99,6 +99,29 @@ Please confirm that you have received all five parts and can open the attachment
 
 Yours faithfully,  
 Joost Hebly
+
+## ACRA registration acknowledgment — Case TR-2611-02061
+
+**Date:** The date is not shown in the email text; Joost shared this acknowledgment on 19 November 2026.
+**From:** ACRA ED Investigation, Investigation Department, Accounting and Corporate Regulatory Authority
+**Subject:** ACRA Case Reference — TR-2611-02061
+
+ACRA confirmed that Joost Hebly’s feedback had been registered, that it would assess the case, and that it would contact him if further information was required. This is an acknowledgment of receipt, not a finding or outcome of the assessment.
+
+> Dear Mr Joost Hebly,
+>
+> ACRA CASE REFERENCE – TR-2611-02061
+>
+> Your feedback has been registered.
+>
+> We will assess the case and contact you should we require any further information.
+>
+> Thank you.
+>
+> Best Regards,
+> Sheryl HENG (Ms)
+> Investigation Department
+> Accounting and Corporate Regulatory Authority
 
 ## Public narrative attachment
 
