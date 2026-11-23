@@ -1,0 +1,12 @@
+sequence,local_datetime_europe_amsterdam,source,direction,subject_or_event,message_id,classification,response_interval
+1,before 2023-11-30,Outlook cache,sent original missing,Original request re A/20210414/0016,not available,unlocated original,unknown
+2,2023-11-30 17:54:17 CET,Outlook,received,Automatic reply Heropening Aangifte,<7d284906e6d04cb7aac43efb1d1f6dfd@omwvmexp001.org.om.local>,automatic acknowledgement,
+3,2023-12-12 11:37:17 CET,Outlook,sent,Follow-up to OM automatic response,not present,reminder,12 calendar days
+4,2023-12-12 11:37:20 CET,Outlook,received,Automatic reply,<63b6e2183a814231bd2d48f81aaf30f0@omwvmexp001.org.om.local>,automatic acknowledgement,3 seconds
+5,2026-11-01 03:41:05 CET,Outlook,sent,Urgent reassessment PL2600-210412-160037300,<PR3P194MB052376AE950385A7B6C44B24E56B2@PR3P194MB0523.EURP194.PROD.OUTLOOK.COM>,formal request,
+6,2026-11-01 03:41:22 CET,Outlook,received,Automatic AP reply,<171afc5d5c1a4fc683da411d23d3f72e@OMWVMEXP017.org.om.local>,automatic acknowledgement,17 seconds
+7,2026-11-01 03:45:49 CET,Outlook,sent,Direct Article 12 request,<PR3P194MB05239F97FEBEF7AA806EC55DE56B2@PR3P194MB0523.EURP194.PROD.OUTLOOK.COM>,formal request,
+8,2026-11-01 03:46:05 CET,Outlook,received,Administrative Article 12 reply,<5df6110f16b145caa48c5e0d7d5eb2d0@OMWVMEXP024.org.om.local>,administrative response,16 seconds
+9,2026-11-23 22:12:23 CET,Gmail,sent,Repeated formal reassessment,Gmail 1a20a40b800bca6e; <nh-765b6a84-a1bf-41e3-8019-23041551e76f@google.com>,formal request,
+10,2026-11-23 22:12:27 CET,Gmail,received,Automatic Article 12 reply,Gmail 1a20a40c8cbaae13,automatic acknowledgement,4 seconds
+period,2023-11-30 to 2026-11-23,calculation,,,1,089 calendar days,not a legal-response finding,
