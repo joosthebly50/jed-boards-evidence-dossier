@@ -498,20 +498,6 @@
         <button class="tab-btn" onclick="copyComplaintPlain(this)">Copy Raw Markdown</button>
       </div>
     </div>
-    <div class="section-card" style="border-color:rgba(52,211,153,0.5);">
-      <h2>Singapore Police Force case timeline</h2>
-      <div style="overflow-x:auto;">
-        <table>
-          <thead><tr><th>Date</th><th>References</th><th>Confirmed event</th><th>Evidence status</th></tr></thead>
-          <tbody><tr>
-            <td><button class="btn-link" onclick="switchTab('spf', document.querySelectorAll('.nav-tabs .tab-btn')[4])"><strong>23 Nov 2026<br>13:31:53 CET</strong></button></td>
-            <td><button class="btn-link" onclick="switchTab('spf', document.querySelectorAll('.nav-tabs .tab-btn')[4])">SPF feedback ref. <code>6b0432390b09af848a28eead</code><br>Original report <code>A/20210414/0016</code></button></td>
-            <td>A formal follow-up complaint was submitted about the lack of communication and progress updates regarding the existing JED Boards / Jeremy Scott Bogan police report. The SPF feedback form displayed <strong>“Compliment Submitted Successfully”</strong>, although the submission was a complaint.</td>
-            <td>Submission confirmation only. This does not establish acceptance, investigation, resolution, or that the complaint was upheld. Screenshot/supporting confirmation is not present in this repository (<strong>pending</strong>).</td>
-          </tr></tbody>
-        </table>
-      </div>
-    </div>
     <div class="complaint-box" id="complaintText"></div>
   </div>
 
@@ -534,6 +520,20 @@
       <div style="display:flex; gap:10px; flex-wrap:wrap;">
         <button class="copy-btn" onclick="copySpfRich(this)">📋 Copy Formatted SPF Email (with Links)</button>
         <button class="tab-btn" onclick="copySpfPlain(this)">Copy Raw Markdown</button>
+      </div>
+    </div>
+    <div class="section-card" style="border-color:rgba(52,211,153,0.5);">
+      <h2>Singapore Police Force case timeline</h2>
+      <div style="overflow-x:auto;">
+        <table>
+          <thead><tr><th>Date</th><th>References</th><th>Confirmed event</th><th>Evidence status</th></tr></thead>
+          <tbody><tr>
+            <td><button class="btn-link" onclick="switchTab('spf', document.querySelectorAll('.nav-tabs .tab-btn')[4])"><strong>23 Nov 2026<br>13:31:53 CET</strong></button></td>
+            <td><button class="btn-link" onclick="switchTab('spf', document.querySelectorAll('.nav-tabs .tab-btn')[4])">SPF feedback ref. <code>6b0432390b09af848a28eead</code><br>Original report <code>A/20210414/0016</code></button></td>
+            <td>A formal follow-up complaint was submitted about the lack of communication and progress updates regarding the existing JED Boards / Jeremy Scott Bogan police report. The SPF feedback form displayed <strong>“Compliment Submitted Successfully”</strong>, although the submission was a complaint.</td>
+            <td>Submission confirmation only. This does not establish acceptance, investigation, resolution, or that the complaint was upheld. Screenshot/supporting confirmation is not present in this repository (<strong>pending</strong>).</td>
+          </tr></tbody>
+        </table>
       </div>
     </div>
     <div class="complaint-box" id="spfText"></div>
