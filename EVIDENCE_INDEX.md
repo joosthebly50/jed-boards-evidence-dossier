@@ -11,6 +11,12 @@
 
 ---
 
+## Case timeline — Australian Police / ReportCyber
+
+| Date | Authority / reference | Confirmed event | Evidence status |
+|---|---|---|---|
+| **23 Nov 2026, 13:15 (time zone not established)** | Australian Police follow-up; related ReportCyber reference `CIRS-20261110-12` | A follow-up email was sent regarding the complaint and supporting evidence emailed on 10 November 2026. After 13 days without an acknowledgement, the email requested confirmation of receipt, registration or referral, any assigned police reference/event number, and whether further information is required. The email states that related concerns were also reported in Singapore, Hong Kong and the Netherlands. | Email text supplied; raw message headers and a separate supporting file are not present in this repository. No receipt or police response is established. |
+
 ## Case timeline — Singapore Police Force
 
 | Date | Authority / reference | Confirmed event | Evidence status |
