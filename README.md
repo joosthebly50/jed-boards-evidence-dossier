@@ -25,6 +25,12 @@
 
 ---
 
+## Case timeline — Singapore Police Force
+
+| Date | Authority / reference | Confirmed event | Evidence status |
+|---|---|---|---|
+| **23 Nov 2026, 13:31:53 CET** | Singapore Police Force feedback reference `6b0432390b09af848a28eead`; concerning original report `A/20210414/0016` | A formal follow-up complaint was submitted about the lack of communication and progress updates regarding the existing JED Boards / Jeremy Scott Bogan police report. The SPF feedback form displayed **“Compliment Submitted Successfully”**, although the submission was a complaint. This records the submission confirmation only; it does not establish acceptance, investigation, resolution, or that the complaint was upheld. | Submission confirmation reported; screenshot/supporting confirmation not present in this repository (**pending**). |
+
 ## Category A — Complainant Joost Hebly: Original Purchases, Delivery Assurances, Refund Demands & Chargeback Records (2018–2023)
 
 | Exhibit # | Date | Filename | Description & Evidentiary Relevance |
