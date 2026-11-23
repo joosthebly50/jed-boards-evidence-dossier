@@ -23,6 +23,12 @@
 |---|---|---|---|
 | **23 Nov 2026, 13:31:53 CET** | Singapore Police Force feedback reference `6b0432390b09af848a28eead`; concerning original report `A/20210414/0016` | A formal follow-up complaint was submitted about the lack of communication and progress updates regarding the existing JED Boards / Jeremy Scott Bogan police report. The SPF feedback form displayed **“Compliment Submitted Successfully”**, although the submission was a complaint. This records the submission confirmation only; it does not establish acceptance, investigation, resolution, or that the complaint was upheld. | [Submission confirmation screenshot](SCREENSHOTS/SPF_Followup_2026-11-23_Submission_Confirmation.png) shows the response ID and timestamp. |
 
+## Case timeline — Netherlands Police
+
+| Date | Authority / reference | Confirmed event | Status / evidence |
+|---|---|---|---|
+| **23 Nov 2026** | Original report `PL2600-210412-160037300`; new contact-form confirmation `261123-PS177808741` | A written request was submitted to the Dutch National Police for a complete copy of the original report and attachments, archive retrieval, case-status information, reassessment/reopening based on additional evidence, cooperation with Australian police and other authorities, lawful verification of address information, international information exchange, possible lawful retrieval of relevant ICS payment information, and written correspondence. | **Written request submitted — awaiting substantive response.** The confirmation “Het formulier is verzonden” establishes submission only; it does not establish reopening or investigative action. Supporting screenshot: [Dutch police submission confirmation](SCREENSHOTS/Dutch_Police_2026-11-23_Submission_Confirmation.png). |
+
 ## Category A — Complainant Joost Hebly: Original Purchases, Delivery Assurances, Refund Demands & Chargeback Records (2018–2023)
 
 | Exhibit # | Date | Filename | Description & Evidentiary Relevance |
