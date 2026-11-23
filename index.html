@@ -288,6 +288,7 @@
         <div style="display:flex; gap:8px; flex-wrap:wrap;">
           <button class="tab-btn" style="background:rgba(56,189,248,0.16); border-color:var(--accent); color:var(--accent);" onclick="switchTab('complaint', document.querySelectorAll('.nav-tabs .tab-btn')[3])">🇦🇺 View Australian Police Filing</button>
           <button class="tab-btn" style="background:rgba(52,211,153,0.16); border-color:var(--success); color:var(--success);" onclick="switchTab('spf', document.querySelectorAll('.nav-tabs .tab-btn')[4])">🇸🇬 View Singapore Police (SPF) Filing</button>
+          <button class="tab-btn" style="background:rgba(96,165,250,0.16); border-color:#60a5fa; color:#93c5fd;" onclick="document.getElementById('netherlandsPoliceSection').scrollIntoView({behavior:'smooth'});">🇳🇱 View Netherlands Police Filing</button>
           <button class="tab-btn" style="background:rgba(251,191,36,0.16); border-color:var(--warn); color:var(--warn);" onclick="switchTab('acra', document.querySelectorAll('.nav-tabs .tab-btn')[5])">🇸🇬 View Singapore ACRA Filing</button>
         </div>
       </div>
@@ -341,7 +342,7 @@
       </table>
     </div>
 
-    <div class="section-card" style="border-color:rgba(96,165,250,0.5);">
+    <div id="netherlandsPoliceSection" class="section-card" style="border-color:rgba(96,165,250,0.5);">
       <h2>🇳🇱 Netherlands Police case timeline</h2>
       <table><thead><tr><th>Date</th><th>References</th><th>Confirmed event</th><th>Status / evidence</th></tr></thead><tbody><tr>
         <td><strong>23 Nov 2026</strong></td>
@@ -349,6 +350,10 @@
         <td>A written request was submitted for a copy and archive retrieval of the original report, status information, reassessment/reopening based on additional evidence, international cooperation and a possible lawful ICS information request.</td>
         <td><strong>Written request submitted — awaiting substantive response.</strong> “Het formulier is verzonden” confirms submission only. <a class="btn-link" href="SCREENSHOTS/Dutch_Police_2026-11-23_Submission_Confirmation.png" target="_blank">View screenshot</a></td>
       </tr></tbody></table>
+      <h3>🇳🇱 Netherlands Police — Formal Follow-up, 23 November 2026</h3>
+      <p><strong>Original report:</strong> <code>PL2600-210412-160037300</code> · <strong>Submission confirmation:</strong> <code>261123-PS177808741</code> · <strong>Status:</strong> Submitted — awaiting substantive response.</p>
+      <p><strong>Public summary, not verbatim:</strong> The exact submitted form text was not found in the local project files. The request covered report and archived-attachment retrieval, earlier unsuccessful telephone/station contacts, reassessment or reopening based on new evidence, ACRA records and complaint, Australian ReportCyber/NSW Police/Randwick references, corporate-record identification information, Singapore and Hong Kong case references, possible lawful ICS payment-information retrieval (including Duncan Macdonald, Team Manager Chargeback), international cooperation, and written correspondence. The confirmation “Het formulier is verzonden” confirms submission only.</p>
+      <p><a class="btn-link" href="SCREENSHOTS/Dutch_Police_2026-11-23_Submission_Confirmation.png" target="_blank" onclick="openLightbox('SCREENSHOTS/Dutch_Police_2026-11-23_Submission_Confirmation.png','Dutch Police submission confirmation — 23 Nov 2026'); return false;">📷 Open original police.nl confirmation screenshot</a></p>
     </div>
 
     <div class="section-card">
@@ -465,6 +470,11 @@
   </div>
 
   <div id="tab-gallery" class="tab-pane">
+    <div class="section-card" style="border-color:rgba(96,165,250,0.5); margin-bottom:18px;">
+      <h2>🇳🇱 Dutch Police submission confirmation</h2>
+      <p>Original police.nl confirmation for submission <code>261123-PS177808741</code>, concerning report <code>PL2600-210412-160037300</code>. The screenshot is the original supplied PNG; it records “Het formulier is verzonden” only.</p>
+      <img src="SCREENSHOTS/Dutch_Police_2026-11-23_Submission_Confirmation.png" alt="Dutch police submission confirmation 23 November 2026" style="max-width:100%; width:420px; cursor:pointer; border:1px solid var(--border); border-radius:8px;" onclick="openLightbox('SCREENSHOTS/Dutch_Police_2026-11-23_Submission_Confirmation.png','Dutch Police submission confirmation — 23 Nov 2026')">
+    </div>
     <div class="section-card" style="border-color: rgba(129, 140, 248, 0.55); margin-bottom: 18px;">
       <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
         <div>
