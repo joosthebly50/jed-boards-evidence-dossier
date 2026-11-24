@@ -9,6 +9,16 @@
 - **Australian Scamwatch:** `947671`
 - **Australian ReportCyber:** `CIRS-20261110-12`
 
+## NDIA — separate Australian authority correspondence
+
+- **Agency / reference:** National Disability Insurance Agency (NDIA), Australia — `TIP-89013`. Separate from NSW Police, ReportCyber and Scamwatch.
+- **Reported receipt:** 24 November 2026. **Displayed message timestamp:** Monday 23 November 2026, 16:00; possibly Australian time, precise zone unconfirmed.
+- **Status:** Official acknowledgement received — assessment outcome unknown.
+- **Connection to JED Boards and Jeremy Scott Bogan remains unverified until the original allegation/submission is identified.** No formal investigation, fraud finding or prosecution is established.
+- **Source:** Correspondent-supplied email text; original `.eml` and authentication headers unavailable. Generic agency sender: `fraudreporting@ndis.gov.au`; recipient omitted from the public copy. No original outgoing allegation has been identified.
+- [Privacy-redacted transcript](DOCUMENTS_AND_PDFS/NDIA_TIP-89013_ACKNOWLEDGEMENT_REDACTED_TRANSCRIPT.md) · [International correspondence timeline](INTERNATIONAL_CORRESPONDENCE_TIMELINE.md). Separate correspondence record; existing exhibit numbering is preserved.
+
+
 ---
 
 ## Case timeline — Australian Police / ReportCyber
