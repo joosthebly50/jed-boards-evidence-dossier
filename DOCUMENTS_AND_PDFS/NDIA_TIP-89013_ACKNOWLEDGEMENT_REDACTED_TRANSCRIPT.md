@@ -6,6 +6,7 @@
 | --- | --- |
 | Agency | National Disability Insurance Agency (NDIA), Australia |
 | Sender shown in supplied copy | `fraudreporting@ndis.gov.au` (agency mailbox; not independently authenticated) |
+| Subject shown in supplied copy | National Disability Insurance Agency (original Subject header unavailable) |
 | Recipient | [REDACTED] |
 | Reported receipt | **24 November 2026**, reported by the correspondent as just received |
 | Displayed message timestamp | **Monday 23 November 2026, 16:00**; possibly Australian time, precise zone unconfirmed |

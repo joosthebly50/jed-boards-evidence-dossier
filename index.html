@@ -33,6 +33,12 @@
     background: rgba(56, 189, 248, 0.14); border: 1px solid rgba(56, 189, 248, 0.35);
     color: var(--accent); padding: 4px 12px; border-radius: 999px; font-size: 12px; font-weight: 600;
   }
+  .ndia-badge {
+    background: var(--accent); color: #090d16; font-size: 14px; text-decoration: none;
+  }
+  .ndia-badge:hover { text-decoration: underline; }
+  #ndia-nav { border-color: var(--accent); }
+  .ndia-email { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
   .badge.warn { background: rgba(251, 191, 36, 0.14); border-color: rgba(251, 191, 36, 0.4); color: var(--warn); }
   .badge.danger { background: rgba(248, 113, 113, 0.14); border-color: rgba(248, 113, 113, 0.4); color: var(--danger); }
   h1 { margin: 0 0 8px 0; font-size: 26px; letter-spacing: -0.3px; }
@@ -210,6 +216,7 @@
   <div class="header-flex">
     <div class="header-left">
       <div class="badge-row">
+        <a class="badge ndia-badge" href="#ndiaCorrespondenceSection" onclick="openNdia(event)">NDIA: TIP-89013</a>
         <span class="badge">NL Police: PL2600-210412-160037300</span>
         <span class="badge">SG Police (SPF): A/20210414/0016 (orig. w20210414/0003)</span>
         <span class="badge warn">SG ACRA Enforcement: s 344 / s 401(2) Companies Act</span>
@@ -244,6 +251,7 @@
   <button class="tab-btn" onclick="switchTab('complaint', this)">3. 🇦🇺 Australian Police Complaint</button>
   <button class="tab-btn" onclick="switchTab('spf', this)">4. 🇸🇬 Singapore Police (SPF) Follow-Up</button>
   <button class="tab-btn" onclick="switchTab('acra', this)">5. 🇸🇬 Singapore ACRA Complaint</button>
+  <a id="ndia-nav" class="tab-btn" style="text-decoration:none;" href="#ndiaCorrespondenceSection" onclick="openNdia(event)">Australia — NDIA Correspondence</a>
   <a class="tab-btn" href="https://joosthebly50.github.io/jed-boards-public-dossier/" target="_blank" style="text-decoration:none; border-color:var(--accent); color:var(--accent);">↗ JED Boards Public Evidence Dossier</a>
   <a class="tab-btn" href="https://github.com/joosthebly50/jed-boards-evidence-dossier" target="_blank" style="text-decoration:none; border-color:var(--accent); color:var(--accent);">↗ GitHub Repo (75 Files)</a>
   <button class="copy-btn" onclick="copyComplaint()">Copy Australian Police Email</button>
@@ -284,7 +292,7 @@
     <div class="section-card" style="border-color: rgba(56, 189, 248, 0.55); background: linear-gradient(180deg, rgba(19, 27, 46, 0.98) 0%, rgba(15, 23, 42, 0.98) 100%);">
       <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; border-bottom:1px solid var(--border); padding-bottom:12px; margin-bottom:14px;">
         <div>
-          <h2 style="border:none; padding:0; margin:0;">International Authority &amp; Correspondence Overview</h2>
+          <h2 style="border:none; padding:0; margin:0;">Cross-Jurisdictional Law Enforcement &amp; Regulatory Actions Tracker</h2>
           <div style="color:var(--muted); font-size:13.5px; margin-top:4px;">Overview of all separate formal complaints, escalations, and regulatory filings submitted by Joost Hebly across Australia, Singapore, the Netherlands, and Hong Kong. Each authority and reference is recorded separately. Listing an acknowledgement does not establish a shared investigation or a verified connection to the allegations in this dossier.</div>
         </div>
         <div style="display:flex; gap:8px; flex-wrap:wrap;">
@@ -313,7 +321,7 @@
             <td>Comprehensive 24-section criminal fraud complaint against Australian citizen <strong>Jeremy Scott Bogan</strong> (<code>ID: PB3146567</code>, residing at <code>2/106 Carrington Rd, Randwick, NSW 2031</code>), multi-victim fraud pattern (incl. Australian victim James Rose), and director disqualification request.</td>
             <td><button class="btn-link" style="cursor:pointer;" onclick="switchTab('complaint', document.querySelectorAll('.nav-tabs .tab-btn')[3])">Open Tab 3 (AU Police) →</button><br><a class="btn-link" style="margin-top:6px;" href="FORMAL_COMPLAINT_AUSTRALIAN_POLICE.md" target="_blank">Raw .MD</a></td>
           </tr>
-          <tr data-agency="AU-NDIA"><td><strong>🇦🇺 Australia — National Disability Insurance Agency (NDIA)</strong><br>Separate Australian government agency</td><td><code>TIP-89013</code><br>NDIA only; separate from police and ReportCyber</td><td>Agency mailbox shown in supplied copy: <code>fraudreporting@ndis.gov.au</code></td><td><strong>Official acknowledgement received — assessment outcome unknown.</strong> Receipt reported 24 Nov 2026; displayed message time 23 Nov 2026, 16:00, possibly Australian time (zone unconfirmed). <strong>Connection to JED Boards and Jeremy Scott Bogan unverified.</strong></td><td><a class="btn-link" href="#ndiaCorrespondenceSection">Acknowledgement and source limits</a><br><a class="btn-link" href="DOCUMENTS_AND_PDFS/NDIA_TIP-89013_ACKNOWLEDGEMENT_REDACTED_TRANSCRIPT.md">Redacted transcript</a></td></tr>
+          <tr data-agency="AU-NDIA"><td><strong>🇦🇺 Australia — National Disability Insurance Agency (NDIA)</strong><br>Separate Australian government agency</td><td><code>TIP-89013</code><br>NDIA only; separate from police and ReportCyber</td><td>Agency mailbox shown in supplied copy: <code>fraudreporting@ndis.gov.au</code></td><td><strong>Official acknowledgement received — assessment outcome unknown.</strong> Receipt reported 24 Nov 2026; displayed message time 23 Nov 2026, 16:00, possibly Australian time (zone unconfirmed). <strong>Connection to JED Boards and Jeremy Scott Bogan unverified.</strong></td><td><a class="btn-link" href="#ndiaCorrespondenceSection" onclick="openNdia(event)">View NDIA correspondence</a><br><a class="btn-link" href="DOCUMENTS_AND_PDFS/NDIA_TIP-89013_ACKNOWLEDGEMENT_REDACTED_TRANSCRIPT.md">Redacted transcript</a></td></tr>
           <tr>
             <td><strong>🇸🇬 Singapore — Singapore Police Force (SPF)</strong></td>
             <td><code>A/20210414/0016</code><br>(orig. <code>w20210414/0003</code>)<br>Follow-up: <code>6b0432390b09af848a28eead</code></td>
@@ -345,49 +353,6 @@
         </tbody>
       </table>
     </div>
-
-    <section id="ndiaCorrespondenceSection" class="section-card" aria-labelledby="ndiaHeading">
-      <h2 id="ndiaHeading">Australia — NDIA receipt acknowledgement</h2>
-      <p><strong>Agency:</strong> National Disability Insurance Agency (NDIA) · <strong>Reference:</strong> <code>TIP-89013</code><br><strong>Status:</strong> Official acknowledgement received — assessment outcome unknown.</p>
-      <p><strong>Reported received:</strong> 24 November 2026, just received according to the correspondent.<br><strong>Displayed message timestamp:</strong> Monday 23 November 2026, 16:00; possibly Australian time, precise zone unconfirmed. These are separate source details; no UTC conversion or explanation of delivery timing is asserted.</p>
-      <p>The supplied acknowledgement states that an allegation was received by email and assigned this NDIA reference. Reports are assessed by specialist officers. The message lists general possible responses, including education, monitoring claims, changes to plan management, fraud investigation, referral of evidence to the Commonwealth Director of Public Prosecutions, and changes to scheme access. These are <strong>not confirmed actions in this matter</strong>. It also says privacy obligations under the Privacy Act 1988 may prevent disclosure of progress or outcomes.</p>
-      <p><strong>Connection to JED Boards and Jeremy Scott Bogan remains unverified until the original allegation/submission is identified.</strong> The acknowledgement does not name them. It does not establish that a formal investigation has opened, fraud has been established or prosecution has begun. This reference is separate from NSW Police, ReportCyber <code>CIRS-20261110-12</code> and Scamwatch <code>947671</code>.</p>
-      <p><strong>Source:</strong> Text supplied by the correspondent; sender shown as <code>fraudreporting@ndis.gov.au</code>. Original .eml, full message headers and authentication results are unavailable. This is a privacy-redacted transcript, not an independently authenticated original.</p>
-      <details><summary class="btn-link">Read the supplied acknowledgement text (recipient omitted)</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.6;">Hello
-
-Thank you for submitting your Tip-Off information to the NDIA.
-
-Your reference number is: TIP-89013
-
-We received your allegation via email. In future, we encourage you to submit any allegations through our user-friendly fraud reporting form on the NDIS website. The online form ensures we have as much information as possible to better assist the investigation process.
-
-We take all reports seriously and they are assessed by specialist officers at the NDIA.
-
-However, sometimes we can’t provide information on a matter because we need to protect the privacy of individuals or the integrity of an investigation.
-
-We also may not be able to provide information about your matter(s) due to our obligations under the Privacy Act 1988
-
-Fraud against the NDIS diverts funds away from participants and puts their safety and wellbeing at risk. The NDIA is committed to preventing, detecting, and responding to non-compliance and fraud by:
-
-·       Providing education to correct claiming behaviour
-
-·       Monitoring of all future claims
-
-·       Changes to plan management
-
-·       Undertaking fraud investigation
-
-·       Referring evidence of fraud to the Office of the Commonwealth Director of Public Prosecutions for the prosecution of criminal offences
-
-·       Removal or change of access to the scheme
-
-If you wish to provide further information about a matter previously reported, please complete the online tip-off form with your reference number. You can also call the dedicated NDIS Fraud Reporting and Scams Helpline on 1800 650 717 and quote your reference number.
-
-Regards
-
-NDIS</pre></details>
-      <p><a class="btn-link" href="DOCUMENTS_AND_PDFS/NDIA_TIP-89013_ACKNOWLEDGEMENT_REDACTED_TRANSCRIPT.md">Archive: privacy-redacted transcript</a> <a class="btn-link" href="INTERNATIONAL_CORRESPONDENCE_TIMELINE.md">International correspondence timeline</a></p>
-    </section>
 
     <section id="internationalCorrespondenceTimeline" class="section-card">
       <h2>International correspondence — selected chronological events</h2>
@@ -553,6 +518,53 @@ NDIS</pre></details>
         </tbody>
       </table>
     </div>
+  </div>
+
+  <div id="tab-ndia" class="tab-pane">
+    <section id="ndiaCorrespondenceSection" class="section-card" aria-labelledby="ndiaHeading">
+      <h2 id="ndiaHeading">Australia — NDIA Correspondence</h2>
+      <p><strong>Subject shown in supplied copy:</strong> National Disability Insurance Agency (original Subject header unavailable)<br><strong>Agency:</strong> National Disability Insurance Agency (NDIA) · <strong>Reference:</strong> <code>TIP-89013</code><br><strong>Status:</strong> Official acknowledgement received — assessment outcome unknown.</p>
+      <p><strong>Reported received:</strong> 24 November 2026, just received according to the correspondent.<br><strong>Displayed message timestamp:</strong> Monday 23 November 2026, 16:00; possibly Australian time, precise zone unconfirmed. These are separate source details; no UTC conversion or explanation of delivery timing is asserted.</p>
+      <p>The supplied acknowledgement states that an allegation was received by email and assigned this NDIA reference. Reports are assessed by specialist officers. The message lists general possible responses, including education, monitoring claims, changes to plan management, fraud investigation, referral of evidence to the Commonwealth Director of Public Prosecutions, and changes to scheme access. These are <strong>not confirmed actions in this matter</strong>. It also says privacy obligations under the Privacy Act 1988 may prevent disclosure of progress or outcomes.</p>
+      <p><strong>Connection to JED Boards and Jeremy Scott Bogan remains unverified until the original allegation/submission is identified.</strong> The acknowledgement does not name them. It does not establish that a formal investigation has opened, fraud has been established or prosecution has begun. This reference is separate from NSW Police, ReportCyber <code>CIRS-20261110-12</code> and Scamwatch <code>947671</code>.</p>
+      <p><strong>Source:</strong> Text supplied by the correspondent; sender shown as <code>fraudreporting@ndis.gov.au</code>. Original .eml, full message headers and authentication results are unavailable. This is a privacy-redacted transcript, not an independently authenticated original.</p>
+      <p><a class="btn-link" href="DOCUMENTS_AND_PDFS/NDIA_TIP-89013_ACKNOWLEDGEMENT_REDACTED_TRANSCRIPT.md">Open redacted transcript</a></p>
+      <h3>Redacted acknowledgement email</h3>
+      <pre class="ndia-email" style="white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.6;">Hello
+
+Thank you for submitting your Tip-Off information to the NDIA.
+
+Your reference number is: TIP-89013
+
+We received your allegation via email. In future, we encourage you to submit any allegations through our user-friendly fraud reporting form on the NDIS website. The online form ensures we have as much information as possible to better assist the investigation process.
+
+We take all reports seriously and they are assessed by specialist officers at the NDIA.
+
+However, sometimes we can’t provide information on a matter because we need to protect the privacy of individuals or the integrity of an investigation.
+
+We also may not be able to provide information about your matter(s) due to our obligations under the Privacy Act 1988
+
+Fraud against the NDIS diverts funds away from participants and puts their safety and wellbeing at risk. The NDIA is committed to preventing, detecting, and responding to non-compliance and fraud by:
+
+·       Providing education to correct claiming behaviour
+
+·       Monitoring of all future claims
+
+·       Changes to plan management
+
+·       Undertaking fraud investigation
+
+·       Referring evidence of fraud to the Office of the Commonwealth Director of Public Prosecutions for the prosecution of criminal offences
+
+·       Removal or change of access to the scheme
+
+If you wish to provide further information about a matter previously reported, please complete the online tip-off form with your reference number. You can also call the dedicated NDIS Fraud Reporting and Scams Helpline on 1800 650 717 and quote your reference number.
+
+Regards
+
+NDIS</pre>
+      <p><a class="btn-link" href="INTERNATIONAL_CORRESPONDENCE_TIMELINE.md">International correspondence timeline</a></p>
+    </section>
   </div>
 
   <div id="tab-gallery" class="tab-pane">
@@ -1062,6 +1074,13 @@ function setCat(cat, btn) {
 function filterExhibits() { renderExhibits(); }
 
 function switchTab(id, btn) {
+  const ndiaNav = document.getElementById('ndia-nav');
+  ndiaNav.removeAttribute('aria-current');
+  if (id === 'ndia') {
+    ndiaNav.setAttribute('aria-current', 'location');
+  } else if (location.hash === '#ndiaCorrespondenceSection') {
+    history.replaceState(null, '', location.pathname + location.search);
+  }
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
   if (btn) btn.classList.add('active');
   if (id === 'all') {
@@ -1072,9 +1091,31 @@ function switchTab(id, btn) {
     const el = document.getElementById('tab-' + id);
     if (el) {
       el.classList.remove('hidden-pane');
+      if (id === 'ndia') {
+        const nav = document.querySelector('.nav-tabs');
+        const offset = getComputedStyle(nav).position === 'sticky' ? nav.offsetHeight + 16 : 16;
+        el.style.scrollMarginTop = offset + 'px';
+      }
       el.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   }
+}
+
+function showNdiaFromHash() {
+  if (location.hash === '#ndiaCorrespondenceSection') {
+    switchTab('ndia', document.getElementById('ndia-nav'));
+  } else if (document.getElementById('ndia-nav').hasAttribute('aria-current')) {
+    switchTab('all', document.querySelector('.nav-tabs .tab-btn'));
+  }
+}
+
+function openNdia(event) {
+  if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+  event.preventDefault();
+  if (location.hash !== '#ndiaCorrespondenceSection') {
+    history.pushState(null, '', '#ndiaCorrespondenceSection');
+  }
+  showNdiaFromHash();
 }
 
 function openLightbox(src, cap) {
@@ -1099,6 +1140,8 @@ function _oldCopyComplaint() {
 
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
 renderExhibits();
+window.addEventListener('hashchange', showNdiaFromHash);
+showNdiaFromHash();
 </script>
 </body>
 </html>
