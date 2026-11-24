@@ -1,5 +1,11 @@
 # International evidence dossier changelog
 
+## 24 November 2026 — prevent an automatic email download on page load
+
+- Removed the automatically requested OM `.eml` iframe. GitHub Pages correctly serves the main page as HTML and the email as `message/rfc822`; embedding the latter caused an unsolicited browser download even inside closed details.
+- The complete original email now loads only when its viewer is opened and is rendered as inert plain text. Its original bytes and explicit download link are preserved.
+- Existing evidence, correspondence, NDIA content and disclaimers are unchanged. Other websites and the local portal are outside this correction.
+
 ## 24 November 2026 — NDIA correspondence
 
 - Added the NDIA as a separate Australian authority and registered `TIP-89013` independently of police/ReportCyber references.
